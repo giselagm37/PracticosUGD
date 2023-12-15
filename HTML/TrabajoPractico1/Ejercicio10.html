@@ -8,7 +8,7 @@
 <body>
     <h1>TABLAS</h1>
  <h3>Una tabla con 3 filas y 3 columnas.</h3>
-    <TAble border="1px" style="padding: 8px " >
+    <Table border="1px" style="padding: 8px " >
 <tr>
     <td>Fila1,Columna1</td>
     <td>Columna2</td>
@@ -25,9 +25,11 @@
     <td></td>
 </tr>
 
-    </TAble>
+    </Table>
+    
     <h3>Una tabla con 2 filas y 4 columnas.</h3>
-    <TAble border="red" >
+    
+    <Table border="1px" >
 <tr>
     <td>Fila1,Columna1</td>
     <td>Columna2</td>
@@ -40,11 +42,48 @@
     <td></td>
     <td></td>
 </tr>
+    </Table>
 
-
-
-    </TAble>
-
-
+    <h3>Una tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas
+    tengan 3 celdas.</h3>
+    
+    <Table border="1px" >
+<tr>
+    <td colspan="3">Fila1</td>
+</tr>    
+    <td>Fila2</td>
+    <td>Columna2</td>
+    <td>Columna3</td>
+  
+</tr>
+<tr>
+    <td>Fila2</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+    </Table>
+    
+    <h3>Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda
+        columna 1 celda y la tercera columna 3 celdas (filas).</h3>
+        
+        <Table border="1px" >
+            <tr>
+                <td rowspan="2">" A "</td>
+                <td rowspan="3"> " C " </td>
+                <td>  " D "</td>
+                
+            </tr>
+            <tr>
+                <td> " B "</td>
+               
+                
+            </tr>
+            <tr>
+                <td> " E "</td>
+                <td> " F "</td>
+        
+            </tr>
+        </Table>  
 </body>
 </html>
