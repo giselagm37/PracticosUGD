@@ -1,0 +1,33 @@
+*{
+    font-family: verdana;
+    p {
+        font-size: 8pt;}
+}
+
+p {
+
+    font-size: 10pt;
+}
+h1{
+    color:blue
+}
+h2{
+    color:green
+}
+p{
+    font-family: arial black;
+}
+h1{
+    color:red;
+    font-family: arial;
+    font-size: 50px;
+    
+}
+p{
+    color:orange;
+    text-justify: auto;
+    line-height: 1.5;
+}
+ul {
+    list-style-image: url('smiley.gif');
+  }
