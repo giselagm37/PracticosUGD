@@ -31,3 +31,16 @@ p{
 ul {
     list-style-image: url('smiley.gif');
   }
+.azulVerdoso{
+    background-color:rgba(39, 156, 177, 0.788);
+}
+.naranja{
+    background-color: orange;
+}
+table{
+    background-color: darkgrey;
+    border-spacing: 12px;
+    td{
+        padding: 4px; 
+    }
+}
