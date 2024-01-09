@@ -40,7 +40,10 @@ ul {
 table{
     background-color: darkgrey;
     border-spacing: 12px;
+    border-style: double;
+ 
     td{
         padding: 4px; 
-    }
+        border-style: groove;
+}
 }
