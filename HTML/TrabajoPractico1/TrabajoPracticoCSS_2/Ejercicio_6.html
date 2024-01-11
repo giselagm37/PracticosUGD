@@ -6,37 +6,45 @@
     <a href="https://www.flaticon.es/iconos-gratis" title=""></a>
     <title>Document</title>
     <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+            font-weight: lighter;
+        }
         table{
             background-color: rgb(214, 213, 213);
             text-align: left;
-            font-family: roboto;
-            font-weight: 100;
             border-spacing: 5px ;
             
         }
         .encabezado{
             color: rgb(37, 163, 194);
             border-bottom:2px solid  rgb(37, 163, 194);
+            color: rgb(37, 163, 194);
         }
         img{
             color: rgb(37, 163, 194);
-            
+            align-items: left;
         }
-        .fina{
-            font-weight: 100;
+       
+        .dosenUno{
+            width: 50%;
+            height: 50%;
         }
+        
+       
 
     </style>
 </head>
 <body>
     <div>
-        <table cellspacing:5px >
+        <table cellspacing:30px >
             <thead>
-                <th class="encabezado"><img  width="15px" height="15px" src="preguntas.ico.png">Tienda</th>
-                <th class="encabezado"><img  width="15px" height="15px" src="carrito.ico.png">Atención al cliente</th>
+                <th class="encabezado"><img  width="15px" height="15px" src="carrito.ico.png" >Tienda</th>
+                <th class="encabezado"><img  width="15px" height="15px" src="preguntas.ico.png">Atención al cliente</th>
                 <th class="encabezado"><img  width="15px" height="15px" src="usuario.ico.png">Mi cuenta</th>
             </thead>
-            <tbody class="fina">
+            <tbody >
                 <tr> 
                 <th>Celulares en promo</th>
                 <th>Foro Movistar</th>
@@ -60,12 +68,12 @@
             <tr>
                 <th>Movistar One</th>
                 <th>Roaming y cobertura</th>
-                <th><img src="google.png" alt="" width="200px" height="150px"></th>
+                <th rowspan="3"><img class="dosenUno" src="dos en uno.webp" alt=""></th>
             </tr>
             <tr>
                 <th>Paquetes</th>
                 <th>Tramites y consultas</th>
-                <th><img src="app_store.png" alt=""  width="300px" height="200px"></th>
+                
             </tr>
             <tr>
                 <th>Crédito</th>
