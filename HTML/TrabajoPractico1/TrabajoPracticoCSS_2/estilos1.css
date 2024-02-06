@@ -1,0 +1,65 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+    
+    }
+    .container{
+        width: 500px; /* ancho*/
+        height: 500px; /*alto*/
+        padding-left: 300px;
+    }
+    .seccion{
+        width: 500px;
+        height: 140px;  
+        display: flex;    
+    }
+    .parte1{
+        width: 15%;
+        float: left;
+       
+        align-items: center;
+        justify-content: center;
+    }
+    .parte2{
+        width: 85%;
+        float: right;
+       
+    
+    }
+    .violeta{
+        width: 50px;
+        height: 50px;
+        background-color: blueviolet;
+        color:white;
+        border-radius: 50%;
+        display: flex;
+        text-align:  center;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    .gris{
+        color:rgb(206, 203, 203);
+    }
+    img{
+        border-radius: 50%;
+    }
+    p {
+        font-weight:bolder;  
+    }
+    .foto{
+        float: right;
+        z-index: 1;
+     
+
+    }
+    .corazon{
+        float: right;
+        padding-top: 15px;
+        padding-right: 210px;
+        z-index: 2;
+       
+       
+        
+    }
