@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <!--Ejercicio 1: Escribe un programa en JavaScript que solicite al usuario
+        que ingrese tres números usando prompt(). Luego, calcula y muestra en 
+        la consola el promedio de estos tres números.-->
+
+<script>
+    promedio=0;
+    for(let i =1; i<=3; i++) {
+        let numero = parseFloat(prompt("Ingrese el numero " +i + " : "));
+        suma+=numero;
+    }
+    promedio=suma/3;
+    console.log(promedio);
+</script>        
+</body>
+</html>
